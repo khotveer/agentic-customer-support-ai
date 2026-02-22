@@ -1,4 +1,4 @@
-# Agentic Customer Support AI
+# Agentic Customer Support AI System for BFSI
 
 ![Architecture Overview](assets/architecture.png)
 
