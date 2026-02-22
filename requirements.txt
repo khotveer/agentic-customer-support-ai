@@ -1,0 +1,56 @@
+# ---------------------------
+# Core ML / DL
+# ---------------------------
+torch==2.1.2
+accelerate==1.12.0
+peft==0.18.1
+bitsandbytes==0.46.1
+safetensors==0.7.0
+
+# ---------------------------
+# Transformers & LLMs
+# ---------------------------
+transformers==5.0.0
+datasets==4.0.0
+huggingface_hub==1.4.1
+tokenizers==0.22.2
+sentencepiece==0.2.1
+
+# ---------------------------
+# Embeddings & RAG
+# ---------------------------
+sentence-transformers==5.2.3
+faiss-cpu==1.13.2
+numpy==2.0.2
+scipy==1.16.3
+
+# ---------------------------
+# LangChain / Agentic
+# ---------------------------
+langchain==1.2.10
+langchain-core==1.2.13
+langgraph==1.0.8
+langsmith==0.7.3
+
+# ---------------------------
+# Data & Utilities
+# ---------------------------
+pandas==2.2.2
+pyarrow==18.1.0
+tqdm==4.67.3
+pydantic==2.12.3
+python-dotenv==1.2.1
+requests==2.32.4
+regex==2025.11.3
+orjson==3.11.7
+
+# ---------------------------
+# Serving / APIs
+# ---------------------------
+fastapi==0.129.0
+uvicorn==0.41.0
+
+# ---------------------------
+# Experiment Tracking (optional)
+# ---------------------------
+wandb==0.25.0
